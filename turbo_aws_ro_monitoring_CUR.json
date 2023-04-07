@@ -22,7 +22,6 @@
                 "ec2:DescribeReservedInstancesModifications",
                 "ec2:DescribeSpotPriceHistory",
                 "ec2:DescribeAccountAttributes",
-                "ec2:ListTagsForResource",
                 "elasticloadbalancing:DescribeTargetGroups",
                 "elasticloadbalancing:DescribeTargetHealth",
                 "elasticloadbalancing:DescribeLoadBalancers",
