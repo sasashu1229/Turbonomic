@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ce:GetReservationUtilization",
+                "ce:GetSavingsPlansUtilizationDetails",
+                "ce:GetSavingsPlansUtilization",
+                "ce:GetSavingsPlansCoverage",
+                "iam:GetUser",
+                "organizations:DescribeOrganization",
+                "organizations:ListAccounts",
+                "s3:GetBucketAcl",
+                "s3:GetObject",
+                "sts:AssumeRole",
+                "sts:AssumeRoleWithWebIdentity"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
